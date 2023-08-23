@@ -1,0 +1,49 @@
+[
+  {
+    "request": {
+      "body": "{\"externalCustomerId\":\"user@domain.com\",\"products\":[\"BALANCES\",\"OWNERS\"]}",
+      "headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Authorization": "***"
+      },
+      "method": "post",
+      "options": {
+        "ssl_options": {
+          "versions": {
+            "tlsv1.2": true,
+            "tlsv1.3": true,
+            "tlsv1.1": true,
+            "tlsv1": true
+          }
+        },
+        "recv_timeout": 30000
+      },
+      "request_body": "",
+      "url": "https://api-sb.meld.io/bank-linking/connect/start"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"id\":\"WQ5CwCxDxXhYuA4fVHGk3o\",\"connectToken\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWRpcmVjdCI6dHJ1ZSwiaXNzIjoibWVsZC5pbyIsImNvbm5lY3Rpb24iOiJXUTVDd0N4RHhYaFl1QTRmVkhHazNvIiwiZXhwIjoxNjkyODExNzMxLCJpYXQiOjE2OTI3OTczMzEsImFjY291bnQiOiJXUTRDcXdqZ2prYml6c01HYTRGZjNSIiwiY3VzdG9tZXIiOiJXUTVDd0ZaQVQ3OUpXWDI3aGs4QVJTIiwicHJvZHVjdHMiOlsiQkFMQU5DRVMiLCJPV05FUlMiXSwicm91dGluZ1Byb2ZpbGUiOiJXUTVFMnlTWlNiQnhpbkxhV282cGpRIn0.8Ux7k3zWocGV2zuJC1Y5r769rxyVYRr9xk9eabE3Mx4\",\"customerId\":\"WQ5CwFZAT79JWX27hk8ARS\",\"externalCustomerId\":\"user@domain.com\",\"widgetUrl\":\"https://institution-connect-sb.meld.io?connectToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWRpcmVjdCI6dHJ1ZSwiaXNzIjoibWVsZC5pbyIsImNvbm5lY3Rpb24iOiJXUTVDd0N4RHhYaFl1QTRmVkhHazNvIiwiZXhwIjoxNjkyODExNzMxLCJpYXQiOjE2OTI3OTczMzEsImFjY291bnQiOiJXUTRDcXdqZ2prYml6c01HYTRGZjNSIiwiY3VzdG9tZXIiOiJXUTVDd0ZaQVQ3OUpXWDI3aGs4QVJTIiwicHJvZHVjdHMiOlsiQkFMQU5DRVMiLCJPV05FUlMiXSwicm91dGluZ1Byb2ZpbGUiOiJXUTVFMnlTWlNiQnhpbkxhV282cGpRIn0.8Ux7k3zWocGV2zuJC1Y5r769rxyVYRr9xk9eabE3Mx4\"}",
+      "headers": {
+        "Date": "Wed, 23 Aug 2023 13:28:51 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Server": "nginx",
+        "Expires": "0",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "X-XSS-Protection": "1; mode=block",
+        "Pragma": "no-cache",
+        "X-Frame-Options": "DENY",
+        "Vary": "Origin",
+        "Meld-Version": "2022-11-10",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "default-src 'self';",
+        "X-Request-ID": "481bb7eb986e3d45514587ed81ceeb40"
+      },
+      "status_code": 201,
+      "type": "ok"
+    }
+  }
+]
