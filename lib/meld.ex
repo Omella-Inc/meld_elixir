@@ -13,7 +13,7 @@ defmodule Meld do
 
   def process_request_headers(_opts) do
     [
-      {"Content-Type", "application/json;charset=UTF-8"},
+      {"Content-Type", "application/json"},
       {"Authorization", "Basic #{get_credentials()}"}
     ]
   end
