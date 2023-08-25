@@ -1,0 +1,49 @@
+[
+  {
+    "request": {
+      "body": "[]",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "***"
+      },
+      "method": "get",
+      "options": {
+        "ssl_options": {
+          "versions": {
+            "tlsv1.2": true,
+            "tlsv1.3": true,
+            "tlsv1.1": true,
+            "tlsv1": true
+          }
+        },
+        "recv_timeout": 30000
+      },
+      "request_body": "",
+      "url": "https://api-sb.meld.io/bank-linking/accounts/WQ4tBpyyBoHiaFaezfTe4A"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"id\":\"WQ4tBpyyBoHiaFaezfTe4A\",\"accountId\":\"WQ4CqwjgjkbizsMGa4Ff3R\",\"customerId\":\"WQ5Z9ubtcrvDdo4jS3CJHy\",\"institutionId\":\"W9kgBBLULSJFSKTwCpb5Gf\",\"institutionName\":\"Finbank Profiles - A\",\"status\":\"ACTIVE\",\"type\":\"DEPOSITORY\",\"subtype\":\"CHECKING\",\"name\":\"Checking\",\"truncatedAccountNumber\":\"1111\",\"identifiers\":{\"ach\":null,\"eft\":null,\"international\":null,\"bacs\":null},\"balances\":{\"currency\":\"USD\",\"currentAmount\":9357.24,\"availableAmount\":7234.19,\"updatedAt\":\"2023-08-25T08:39:47Z\"},\"owners\":[{\"addresses\":[{\"data\":{\"street\":null,\"city\":null,\"region\":null,\"postalCode\":null,\"country\":null,\"full\":\"7195 BELMONT ST. PARLIN, NJ 08859\"},\"primary\":\"UNKNOWN\"}],\"emails\":null,\"names\":[\"PATRICK & LORRAINE PURCHASER\"],\"phoneNumbers\":null}],\"serviceProviderDetails\":[{\"account\":{\"accountNumberDisplay\":\"1111\",\"aggregationAttemptDate\":1692952793,\"aggregationStatusCode\":0,\"aggregationSuccessDate\":1692952793,\"balance\":9357.24,\"balanceDate\":1692952787,\"createdDate\":1692885316,\"currency\":\"USD\",\"customerId\":7001652003,\"detail\":{\"afterTaxAmount\":null,\"autoPayEnrolled\":null,\"availableBalanceAmount\":7234.19,\"availableCashBalance\":null,\"balloonAmount\":null,\"buyPower\":null,\"cashAdvanceAvailableAmount\":null,\"cashAdvanceBalance\":null,\"cashAdvanceInterestRate\":null,\"cashAdvanceMaxAmount\":null,\"cashBalanceAmount\":null,\"collateral\":null,\"contribTotalYtd\":null,\"creditAvailableAmount\":null,\"creditMaxAmount\":null,\"currentBalance\":null,\"currentLoanBalance\":null,\"currentSchool\":null,\"description\":null,\"empMatchAmount\":null,\"empPretaxContribAmount\":null,\"empPretaxContribAmountYtd\":null,\"endingBalanceAmount\":null,\"escrowBalance\":null,\"firstMortgage\":null,\"firstPaymentDate\":null,\"initialMlAmount\":null,\"initialMlDate\":null,\"interestMarginBalance\":null,\"interestPaidLtd\":null,\"interestPeriod\":null,\"interestPriorYtdAmount\":null,\"interestRate\":null,\"interestRateType\":null,\"interestYtdAmount\":null,\"lastPaymentAmount\":null,\"lastPaymentDate\":null,\"lastPaymentDueDate\":null,\"lastPaymentEscrowAmount\":null,\"lastPaymentInterestAmount\":null,\"lastPaymentLastFeeAmount\":null,\"lastPaymentLateCharge\":null,\"lastPaymentPrincipalAmount\":null,\"lastPaymentReceiveDate\":null,\"lateFeeAmount\":null,\"lender\":null,\"loanPaymentFreq\":null,\"loanPaymentType\":null,\"loanRate\":null,\"loanTermType\":null,\"matchAmount\":null,\"maturityDate\":null,\"maturityValueAmount\":null,\"mlHolderName\":null,\"nextPayment\":null,\"nextPaymentDate\":null,\"nextPaymentInterestAmount\":null,\"nextPaymentPrincipalAmount\":null,\"openDate\":null,\"originalMaturityDate\":null,\"originalSchool\":null,\"otherNonvestAmount\":null,\"otherVestAmount\":null,\"pastDueAmount\":null,\"paymentDueDate\":null,\"paymentMinAmount\":null,\"paymentsMade\":null,\"paymentsRemaining\":null,\"payoffAmount\":null,\"payoffAmountDate\":null,\"periodDepositAmount\":null,\"periodEndDate\":null,\"periodInterestAmount\":null,\"periodInterestRate\":null,\"periodStartDate\":null,\"postedDate\":null,\"preTaxAmount\":null,\"previousBalance\":null,\"principalBalance\":null,\"profitSharingAmount\":null,\"projectedInterest\":null,\"recurringPaymentAmount\":null,\"repaymentPlan\":null,\"rewardEarnedBalance\":null,\"rolloverAmount\":null,\"rolloverLtd\":null,\"shortBalance\":null,\"statementCloseBalance\":null,\"statementCreditAmount\":null,\"statementEndDate\":null,\"statementFinanceAmount\":null,\"statementPurchaseAmount\":null,\"statementStartDate\":null,\"termOfMl\":null,\"vestedBalance\":null,\"ytdInsurancePaid\":null,\"ytdInterestPaid\":null,\"ytdPrincipalPaid\":null,\"ytdTaxPaid\":null},\"displayPosition\":1,\"id\":7003164135,\"institutionId\":102105,\"institutionLoginId\":7001426711,\"lastTransactionDate\":1692952787,\"name\":\"Checking\",\"number\":\"xx1111\",\"oldestTransactionDate\":1675252800,\"position\":null,\"realAccountNumberLast4\":1111,\"status\":\"active\",\"type\":\"checking\"},\"owner\":{\"ownerAddress\":\"7195 BELMONT ST. PARLIN, NJ 08859\",\"ownerName\":\"PATRICK & LORRAINE PURCHASER\"},\"serviceProvider\":\"FINICITY\",\"updatedAt\":\"2023-08-25T13:55:21.43452+00:00\"}],\"externalCustomerId\":null,\"connectionId\":null}",
+      "headers": {
+        "Date": "Fri, 25 Aug 2023 17:58:46 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Server": "nginx",
+        "Expires": "0",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "X-XSS-Protection": "1; mode=block",
+        "Pragma": "no-cache",
+        "X-Frame-Options": "DENY",
+        "Vary": "Origin",
+        "Meld-Version": "2022-09-21",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "default-src 'self';",
+        "X-Request-ID": "d7d54150aadac3847c986ead0875ab78"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

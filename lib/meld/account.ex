@@ -5,4 +5,9 @@ defmodule Meld.Account do
   def search_by_connection_id(connection_id, header_opts \\ []) do
     Meld.make_request(:get, "#{@endpoint}?connectionId=#{connection_id}", header_opts)
   end
+
+  @spec get(String.t(), Keyword.t()) :: {:ok, map()} | {:error, map()}
+  def get(account_id, header_opts \\ []) do
+    Meld.make_request(:get, "#{@endpoint}/#{account_id}", header_opts)
+  end
 end
